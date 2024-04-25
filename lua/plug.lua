@@ -49,6 +49,7 @@ use {                                              -- filesystem navigation
         let g:vimtex_quickfix_mode=0
         set conceallevel=1
         let g:tex_conceal='abdmg'
+        let g:vimtex_syntax_conceal_disable = 1
       ]])
    }
   use {'sirver/ultisnips'}

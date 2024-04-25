@@ -1,0 +1,20 @@
+snippet Prog "Program format" 
+!PROGRAM ${1:general title} 
+!${2:Description} 
+
+PROGRAM ${3:functional title}
+IMPLICIT NONE
+$0
+
+END PROGRAM $3
+endsnippet
+
+snippet print "PRINT expansion" bA
+PRINT*, $0
+endsnippet
+
+snippet read "READ expansion" bA
+READ*, $0
+endsnippet
+
+

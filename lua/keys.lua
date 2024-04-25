@@ -6,3 +6,11 @@ local map = vim.api.nvim_set_keymap
 
 -- nvimtree toggle
 map('n', 'n', [[:NvimTreeToggle]], {})
+
+-- esc remap to jk
+map('i', 'jk', '<Esc>', {noremap=true,silent=true})
+map('v', 'jk', '<Esc>', {noremap=true,silent=true})
+
+map('i', '<Tab>', 'hg', { noremap = true, silent = true })
+map('n', '<Tab>', 'hg', { noremap = true, silent = true })
+
